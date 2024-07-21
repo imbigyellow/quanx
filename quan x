@@ -67,16 +67,12 @@ url-latency-benchmark=台湾(延迟优选), server-tag-regex=^(?=.*(🇹🇼|台
 round-robin=台湾(负载均衡), server-tag-regex=^(?=.*(🇹🇼|台|(?i)TW|Tai))(?!.*(回国|校园|游戏|教育|久虚|(?i)GAME|IPV6)).*$, img-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Taiwan.png
 url-latency-benchmark=日本(延迟优选), server-tag-regex=^(?=.*((?i) 🇯🇵|日|川日|东京|大阪|泉日|埼玉|JP|Japan))(?!.*((?i)回国|校园|游戏|教育|久虚|GAME|IPV6)).*$, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
 round-robin=日本(负载均衡), server-tag-regex=^(?=.*((?i) 🇯🇵|日|川日|东京|大阪|泉日|埼玉|JP|Japan))(?!.*((?i)回国|校园|游戏|教育|久虚|GAME|IPV6)).*$, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
-url-latency-benchmark=韩国(延迟优选), server-tag-regex=^(?=.*(🇰🇷|韩|韓|首尔|(?i)KR|Korea))(?!.*(回国|校园|游戏|教育|久虚|(?i)GAME|IPV6)).*$, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/South_Korea.png
-round-robin=韩国(负载均衡), server-tag-regex=^(?=.*(🇰🇷|韩|韓|首尔|(?i)KR|Korea))(?!.*(回国|校园|游戏|教育|久虚|(?i)GAME|IPV6)).*$, img-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/South_Korea.png
 url-latency-benchmark=新加坡(延迟优选), server-tag-regex=^(?=.*(🇸🇬|新加坡|狮|(?i)SG|Singapore))(?!.*(回国|校园|游戏|教育|久虚|(?i)GAME|IPV6)).*$, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
 round-robin=新加坡(负载均衡), server-tag-regex=^(?=.*(🇸🇬|新加坡|狮|(?i)SG|Singapore))(?!.*(回国|校园|游戏|教育|久虚|(?i)GAME|IPV6)).*$, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
 url-latency-benchmark=美国(延迟优选), server-tag-regex=^(?=.*(🇺🇸|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(?i)US|United States))(?!.*(回国|校园|游戏|教育|久虚|(?i)GAME|IPV6)).*$, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
 round-robin=美国(负载均衡), server-tag-regex=^(?=.*(🇺🇸|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(?i)US|United States))(?!.*(回国|校园|游戏|教育|久虚|(?i)GAME|IPV6)).*$, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
 url-latency-benchmark=英国(延迟优选), server-tag-regex=^(?=.*(🇬🇧|英|伦敦|(?i)UK|United Kingdom))(?!.*(回国|校园|游戏|教育|久虚|(?i)GAME|IPV6)).*$, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_Kingdom.png
 round-robin=英国(负载均衡), server-tag-regex=^(?=.*(🇬🇧|英|伦敦|(?i)UK|United Kingdom))(?!.*(回国|校园|游戏|教育|久虚|(?i)GAME|IPV6)).*$, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_Kingdom.png
-url-latency-benchmark=土耳其(延迟优选), server-tag-regex=^(?=.*(🇹🇷|土耳其|(?i)TR|TUR|Turkey))(?!.*(回国|校园|游戏|教育|久虚|(?i)GAME|IPV6)).*$, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/mgxray/shadowrocket-Quantumult_x-Loon-Stash/main/IconSet/Color/Turkey.png
-round-robin=土耳其(负载均衡), server-tag-regex=^(?=.*(🇹🇷|土耳其|(?i)TR|TUR|Turkey))(?!.*(回国|校园|游戏|教育|久虚|(?i)GAME|IPV6)).*$, img-url=https://raw.githubusercontent.com/mgxray/shadowrocket-Quantumult_x-Loon-Stash/main/IconSet/Color/Turkey.png
 
 #应用策略
 static=OpenAI, 节点选择, proxy, 自动(延迟优选), 自动(故障转移), 自动(负载均衡), 负载均衡(随机), 香港(延迟优选), 香港(负载均衡), 台湾(延迟优选), 台湾(负载均衡), 日本(延迟优选), 日本(负载均衡), 韩国(延迟优选), 韩国(负载均衡), 新加坡(延迟优选), 新加坡(负载均衡), 美国(延迟优选), 美国(负载均衡), 英国(延迟优选), 英国(负载均衡), 土耳其(延迟优选), 土耳其(负载均衡), 全球直连, img-url=https://raw.githubusercontent.com/mgxray/Quantumult_x_II/main/country/chatgpt.png
@@ -86,15 +82,12 @@ static=Disney+, 节点选择, proxy, 自动(延迟优选), 自动(故障转移),
 static=HBO, 节点选择, proxy, 自动(延迟优选), 自动(故障转移), 自动(负载均衡), 负载均衡(随机), 香港(延迟优选), 香港(负载均衡), 台湾(延迟优选), 台湾(负载均衡), 日本(延迟优选), 日本(负载均衡), 韩国(延迟优选), 韩国(负载均衡), 新加坡(延迟优选), 新加坡(负载均衡), 美国(延迟优选), 美国(负载均衡), 英国(延迟优选), 英国(负载均衡), 土耳其(延迟优选), 土耳其(负载均衡), 全球直连, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HBO.png
 static=Hulu, 节点选择, proxy, 自动(延迟优选), 自动(故障转移), 自动(负载均衡), 负载均衡(随机), 香港(延迟优选), 香港(负载均衡), 台湾(延迟优选), 台湾(负载均衡), 日本(延迟优选), 日本(负载均衡), 韩国(延迟优选), 韩国(负载均衡), 新加坡(延迟优选), 新加坡(负载均衡), 美国(延迟优选), 美国(负载均衡), 英国(延迟优选), 英国(负载均衡), 土耳其(延迟优选), 土耳其(负载均衡), 全球直连, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hulu.png
 static=TikTok, 节点选择, proxy, 自动(延迟优选), 自动(故障转移), 自动(负载均衡), 负载均衡(随机), 香港(延迟优选), 香港(负载均衡), 台湾(延迟优选), 台湾(负载均衡), 日本(延迟优选), 日本(负载均衡), 韩国(延迟优选), 韩国(负载均衡), 新加坡(延迟优选), 新加坡(负载均衡), 美国(延迟优选), 美国(负载均衡), 英国(延迟优选), 英国(负载均衡), 土耳其(延迟优选), 土耳其(负载均衡), 全球直连, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png
-static=Spotify, 节点选择, proxy, 自动(延迟优选), 自动(故障转移), 自动(负载均衡), 负载均衡(随机), 香港(延迟优选), 香港(负载均衡), 台湾(延迟优选), 台湾(负载均衡), 日本(延迟优选), 日本(负载均衡), 韩国(延迟优选), 韩国(负载均衡), 新加坡(延迟优选), 新加坡(负载均衡), 美国(延迟优选), 美国(负载均衡), 英国(延迟优选), 英国(负载均衡), 土耳其(延迟优选), 土耳其(负载均衡), 全球直连, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
 static=Telegram, 节点选择, proxy, 自动(延迟优选), 自动(故障转移), 自动(负载均衡), 负载均衡(随机), 香港(延迟优选), 香港(负载均衡), 台湾(延迟优选), 台湾(负载均衡), 日本(延迟优选), 日本(负载均衡), 韩国(延迟优选), 韩国(负载均衡), 新加坡(延迟优选), 新加坡(负载均衡), 美国(延迟优选), 美国(负载均衡), 英国(延迟优选), 英国(负载均衡), 土耳其(延迟优选), 土耳其(负载均衡), 全球直连, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
 static=Twitter, 节点选择, proxy, 自动(延迟优选), 自动(故障转移), 自动(负载均衡), 负载均衡(随机), 香港(延迟优选), 香港(负载均衡), 台湾(延迟优选), 台湾(负载均衡), 日本(延迟优选), 日本(负载均衡), 韩国(延迟优选), 韩国(负载均衡), 新加坡(延迟优选), 新加坡(负载均衡), 美国(延迟优选), 美国(负载均衡), 英国(延迟优选), 英国(负载均衡), 土耳其(延迟优选), 土耳其(负载均衡), 全球直连, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png
 static=Facebook, 节点选择, proxy, 自动(延迟优选), 自动(故障转移), 自动(负载均衡), 负载均衡(随机), 香港(延迟优选), 香港(负载均衡), 台湾(延迟优选), 台湾(负载均衡), 日本(延迟优选), 日本(负载均衡), 韩国(延迟优选), 韩国(负载均衡), 新加坡(延迟优选), 新加坡(负载均衡), 美国(延迟优选), 美国(负载均衡), 英国(延迟优选), 英国(负载均衡), 土耳其(延迟优选), 土耳其(负载均衡), 全球直连, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Facebook.png
 static=Instagram, 节点选择, proxy, 自动(延迟优选), 自动(故障转移), 自动(负载均衡), 负载均衡(随机), 香港(延迟优选), 香港(负载均衡), 台湾(延迟优选), 台湾(负载均衡), 日本(延迟优选), 日本(负载均衡), 韩国(延迟优选), 韩国(负载均衡), 新加坡(延迟优选), 新加坡(负载均衡), 美国(延迟优选), 美国(负载均衡), 英国(延迟优选), 英国(负载均衡), 土耳其(延迟优选), 土耳其(负载均衡), 全球直连, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Instagram.png
-static=GoogleVoice, 节点选择, proxy, 自动(延迟优选), 自动(故障转移), 自动(负载均衡), 负载均衡(随机), 香港(延迟优选), 香港(负载均衡), 台湾(延迟优选), 台湾(负载均衡), 日本(延迟优选), 日本(负载均衡), 韩国(延迟优选), 韩国(负载均衡), 新加坡(延迟优选), 新加坡(负载均衡), 美国(延迟优选), 美国(负载均衡), 英国(延迟优选), 英国(负载均衡), 土耳其(延迟优选), 土耳其(负载均衡), 全球直连, img-url=https://raw.githubusercontent.com/mgxray/Quantumult_x_II/main/country/Google%20Voice%20(2).png
 static=国外媒体, 节点选择, proxy, 自动(延迟优选), 自动(故障转移), 自动(负载均衡), 负载均衡(随机), 香港(延迟优选), 香港(负载均衡), 台湾(延迟优选), 台湾(负载均衡), 日本(延迟优选), 日本(负载均衡), 韩国(延迟优选), 韩国(负载均衡), 新加坡(延迟优选), 新加坡(负载均衡), 美国(延迟优选), 美国(负载均衡), 英国(延迟优选), 英国(负载均衡), 土耳其(延迟优选), 土耳其(负载均衡), 全球直连, img-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/StreamingSE.png
 static=国内媒体, 全球直连, 节点选择, 自动(延迟优选), 自动(故障转移), 自动(负载均衡), 负载均衡(随机), 香港(延迟优选), 香港(负载均衡), 台湾(延迟优选), 台湾(负载均衡), 日本(延迟优选), 日本(负载均衡), 韩国(延迟优选), 韩国(负载均衡), 新加坡(延迟优选), 新加坡(负载均衡), 美国(延迟优选), 美国(负载均衡), 英国(延迟优选), 英国(负载均衡), 土耳其(延迟优选), 土耳其(负载均衡), proxy, img-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Streaming.png
-static=Binance, 节点选择, proxy, 自动(延迟优选), 自动(故障转移), 自动(负载均衡), 负载均衡(随机), 香港(延迟优选), 香港(负载均衡), 台湾(延迟优选), 台湾(负载均衡), 日本(延迟优选), 日本(负载均衡), 韩国(延迟优选), 韩国(负载均衡), 新加坡(延迟优选), 新加坡(负载均衡), 美国(延迟优选), 美国(负载均衡), 英国(延迟优选), 英国(负载均衡), 土耳其(延迟优选), 土耳其(负载均衡), 全球直连, img-url=https://raw.githubusercontent.com/mgxray/Quantumult_x_II/main/country/binance_II.png
 
 #直连策略
 static=全球直连, direct, proxy, img-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Air_Bnb.png
@@ -141,8 +134,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/DouYin/DouYin.list, tag=DouYin, force-policy=国内媒体, update-interval=172800, opt-parser=false, enabled=true
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/GitHub/GitHub.list, tag=GitHub, force-policy=节点选择, update-interval=172800, opt-parser=false, enabled=true
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMaxNoMedia/ChinaMaxNoMedia.list, tag=国内网站, force-policy=全球直连, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list, tag=去广告, force-policy=广告拦截, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ZhihuAds/ZhihuAds.list, tag=知乎去广告, force-policy=广告拦截, update-interval=172800, opt-parser=false, enabled=true
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Privacy/Privacy.list, tag=隐私防护, force-policy=隐私防护, update-interval=172800, opt-parser=false, enabled=true
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/EasyPrivacy/EasyPrivacy.list, tag=EasyPrivacy, force-policy=隐私防护, update-interval=172800, opt-parser=false, enabled=true
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/OpenAI/OpenAI.list, tag=OpenAI, force-policy=OpenAI, update-interval=172800, opt-parser=false, enabled=true
@@ -151,9 +142,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Twitter/Twitter.list, tag=Twitter, force-policy=Twitter, update-interval=172800, opt-parser=false, enabled=true
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Facebook/Facebook.list, tag=Facebook, force-policy=Facebook, update-interval=172800, opt-parser=false, enabled=true
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Instagram/Instagram.list, tag=Instagram, force-policy=Instagram, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/GoogleVoice/GoogleVoice.list, tag=GoogleVoice, force-policy=GoogleVoice, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Spotify/Spotify.list, tag=Spotify, force-policy=Spotify, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Binance/Binance.list, tag=Binance, force-policy=Binance, update-interval=172800, opt-parser=false, enabled=true
 
 #本地复写规则
 [rewrite_local]
@@ -162,23 +150,17 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 #rewrite 复写远程订阅
 [rewrite_remote]
-https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.conf, tag=Spotify解锁高音质会员, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/app2smile/rules/master/module/youtube-qx.conf, tag=YouTube去广告, update-interval=172800, opt-parser=false, enabled=true
+#https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.conf, tag=Spotify解锁高音质会员, update-interval=172800, opt-parser=false, enabled=true
+#ttps://raw.githubusercontent.com/app2smile/rules/master/module/youtube-qx.conf, tag=YouTube去广告, update-interval=172800, opt-parser=false, enabled=true
 #Sub-Sture
 https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/QX.snippet, tag=Sub-Store, update-interval=172800, opt-parser=false, enabled=true
 
 #BoxJs
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=BoxJs, update-interval=172800, opt-parser=false, enabled=true
 
-#去广告
-https://quan-shado-conf.mojy.xyz/conf/implant/quantumultx/rewrite/YouTubeAdblock.conf, tag=去YouTube视频广告, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AdvertisingLite/AdvertisingLite.conf, tag=复写去广告, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AdvertisingScript/AdvertisingScript.conf, tag=脚本去广告, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AllInOne/AllInOne.conf, tag=bm7去广告, update-interval=172800, opt-parser=false, enabled=true
-
 #重定向
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/Redirect/Redirect.conf, tag=重定向, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/SafeRedirect/SafeRedirect.conf, tag=安全重定向, update-interval=172800, opt-parser=false, enabled=true
+#https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/Redirect/Redirect.conf, tag=重定向, update-interval=172800, opt-parser=false, enabled=true
+#https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/SafeRedirect/SafeRedirect.conf, tag=安全重定向, update-interval=172800, opt-parser=false, enabled=true
 
 #请求列表计划任务
 [task_local]
@@ -187,11 +169,11 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 [http_backend]
 
 #以下为证书&主机名部分
-[mitm]
-skip_validating_cert = true
-force_sni_domain_name = false
+#[mitm]
+#skip_validating_cert = true
+#force_sni_domain_name = false
 
-hostname = s.youtube.com, www.youtube.com, youtubei.googleapis.com, *.googlevideo.com, 
+#hostname = s.youtube.com, www.youtube.com, youtubei.googleapis.com, *.googlevideo.com, 
 
 ;以下模块去掉;才生效
 ;请自行在 APP 的UI中 生成证书 并安装&信任（💡请按确保照文字提示操作💡）
