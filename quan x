@@ -158,10 +158,6 @@ https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/QX.snippet, ta
 #BoxJs
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=BoxJs, update-interval=172800, opt-parser=false, enabled=true
 
-#重定向
-#https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/Redirect/Redirect.conf, tag=重定向, update-interval=172800, opt-parser=false, enabled=true
-#https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/SafeRedirect/SafeRedirect.conf, tag=安全重定向, update-interval=172800, opt-parser=false, enabled=true
-
 #请求列表计划任务
 [task_local]
 
