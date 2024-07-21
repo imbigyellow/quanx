@@ -97,7 +97,7 @@ static=广告拦截, reject, direct, img-url=https://raw.githubusercontent.com/S
 static=隐私防护, reject, direct, img-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Reject.orig.png
 
 #漏网之鱼
-static=漏网之鱼, 节点选择, 自动(延迟优选), 自动(故障转移), 自动(负载均衡), 负载均衡(随机), 香港(延迟优选), 香港(负载均衡), 台湾(延迟优选), 台湾(负载均衡), 日本(延迟优选), 日本(负载均衡), 新加坡(负载均衡), 美国(延迟优选), 美国(负载均衡), 英国(延迟优选), 英国(负载均衡), 全球直连, img-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Final.png
+static=漏网之鱼, 节点选择, 自动(延迟优选), 自动(故障转移), 自动(负载均衡), 负载均衡(随机), 香港(延迟优选), 香港(负载均衡), 台湾(延迟优选), 台湾(负载均衡), 日本(延迟优选), 日本(负载均衡), 新加坡(延迟优选), 新加坡(负载均衡), 美国(延迟优选), 美国(负载均衡), 英国(延迟优选), 英国(负载均衡), 全球直连, img-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Final.png
 
 #自动策略
 url-latency-benchmark=自动(延迟优选), server-tag-regex=^*$, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Auto_Speed.png
