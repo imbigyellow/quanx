@@ -93,7 +93,7 @@ static=国内媒体, 全球直连, 节点选择, 自动(延迟优选), 自动(�
 static=全球直连, direct, proxy, img-url=https://raw.githubusercontent.com/imbigyellow/quanx/main/IconSet2/Social_Media/Howcast.png
 
 #拦截策略
-static=广告拦截, https://raw.githubusercontent.com/imbigyellow/quanx/main/IconSet2/Universal/Reject.png
+static=广告拦截, reject, direct, img-url=https://raw.githubusercontent.com/imbigyellow/quanx/main/IconSet2/Universal/Reject.png
 static=隐私防护, reject, direct, img-url=https://raw.githubusercontent.com/imbigyellow/quanx/main/IconSet2/Universal/Reject.orig.png
 
 #漏网之鱼
