@@ -120,28 +120,29 @@ geoip, cn, 全球直连
 
 #规则分流远程订阅
 [filter_remote]
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Lan/Lan.list, tag=本地网络直连, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Proxy/Proxy.list, tag=代理, force-policy=节点选择, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Direct/Direct.list, tag=直连, force-policy=全球直连, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Telegram/Telegram.list, tag=Telegram, force-policy=Telegram, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/TelegramNL/TelegramNL.list, tag=TelegramNL, force-policy=Telegram, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/TelegramSG/TelegramSG.list, tag=TelegramSG, force-policy=Telegram, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/TelegramUS/TelegramUS.list, tag=TelegramUS, force-policy=Telegram, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/YouTube/YouTube.list, tag=Youtube, force-policy=YouTube, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Netflix/Netflix.list, tag=Netflix, force-policy=Netflix, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/TikTok/TikTok.list, tag=TikTok, force-policy=TikTok, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Disney/Disney.list, tag=Disney, force-policy=Disney+, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/DouYin/DouYin.list, tag=DouYin, force-policy=国内媒体, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/GitHub/GitHub.list, tag=GitHub, force-policy=节点选择, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMaxNoMedia/ChinaMaxNoMedia.list, tag=国内网站, force-policy=全球直连, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Privacy/Privacy.list, tag=隐私防护, force-policy=隐私防护, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/EasyPrivacy/EasyPrivacy.list, tag=EasyPrivacy, force-policy=隐私防护, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/OpenAI/OpenAI.list, tag=OpenAI, force-policy=OpenAI, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/HBO/HBO.list, tag=HBO, force-policy=HBO, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Hulu/Hulu.list, tag=Hulu, force-policy=Hulu, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Twitter/Twitter.list, tag=Twitter, force-policy=Twitter, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Facebook/Facebook.list, tag=Facebook, force-policy=Facebook, update-interval=172800, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Instagram/Instagram.list, tag=Instagram, force-policy=Instagram, update-interval=172800, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Lan/Lan.list, tag=本地网络直连, force-policy=direct, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Proxy/Proxy.list, tag=代理, force-policy=节点选择, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Direct/Direct.list, tag=直连, force-policy=全球直连, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Telegram/Telegram.list, tag=Telegram, force-policy=Telegram, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/TelegramNL/TelegramNL.list, tag=TelegramNL, force-policy=Telegram, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/TelegramSG/TelegramSG.list, tag=TelegramSG, force-policy=Telegram, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/TelegramUS/TelegramUS.list, tag=TelegramUS, force-policy=Telegram, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/YouTube/YouTube.list, tag=Youtube, force-policy=YouTube, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Netflix/Netflix.list, tag=Netflix, force-policy=Netflix, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/TikTok/TikTok.list, tag=TikTok, force-policy=TikTok, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Disney/Disney.list, tag=Disney, force-policy=Disney+, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/DouYin/DouYin.list, tag=DouYin, force-policy=国内媒体, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/GitHub/GitHub.list, tag=GitHub, force-policy=节点选择, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMaxNoMedia/ChinaMaxNoMedia.list, tag=国内网站, force-policy=全球直连, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Privacy/Privacy.list, tag=隐私防护, force-policy=隐私防护, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/EasyPrivacy/EasyPrivacy.list, tag=EasyPrivacy, force-policy=隐私防护, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/OpenAI/OpenAI.list, tag=OpenAI, force-policy=OpenAI, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/HBO/HBO.list, tag=HBO, force-policy=HBO, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Hulu/Hulu.list, tag=Hulu, force-policy=Hulu, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Twitter/Twitter.list, tag=Twitter, force-policy=Twitter, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Facebook/Facebook.list, tag=Facebook, force-policy=Facebook, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Instagram/Instagram.list, tag=Instagram, force-policy=Instagram, opt-parser=false, enabled=true
+#以下字段update-interval=172800, 用作自动更新，172800秒代表48小时，如果需要则添加在（opt-parser=false, enabled=true）字段前面，并且适当分隔（通常是用逗号+空格）
 
 #本地复写规则
 [rewrite_local]
